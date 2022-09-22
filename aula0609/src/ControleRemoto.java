@@ -6,13 +6,14 @@ public class ControleRemoto{ //extends Brinquedo{
 		this.brinquedo = brinquedo;
 	}
 	
+	
 	public void virarDireita() {
 		System.out.println("virou para direita");
-		brinquedo.mover();
+		brinquedo.mover(1);
 	}
 	public void virarEsquerda() {
 		System.out.println("virou para esquerda");
-		brinquedo.mover();
+		brinquedo.mover(-1);
 	}
 	
 	public void acelerar(int vel) {
